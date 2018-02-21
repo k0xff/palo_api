@@ -7,7 +7,7 @@ import xml.etree.ElementTree as ET
 
 requests.packages.urllib3.disable_warnings()
 
-#generate API key
+#generate API key, per firewall.
 ##https://SECONDARYFWIP/esp/restapi.esp?type=keygen&user=USER&password=PASSWORD
 SECFW_api_key = "FOO="
 PRIFW_api_key = "BAR="
